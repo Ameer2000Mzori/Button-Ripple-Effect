@@ -5,3 +5,39 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #b8bfc8;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%236e6084' fill-opacity='0.32'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.header .head-Wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  background-color: #b8bfc8;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+}
+
+.header .head-Wrap .effect-Button {
+  position: relative;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(34, 34, 34);
+  cursor: pointer;
+}
