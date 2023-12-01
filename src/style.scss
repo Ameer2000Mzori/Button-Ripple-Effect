@@ -41,6 +41,28 @@ body {
       color: rgb(255, 255, 255);
       background-color: rgb(34, 34, 34);
       cursor: pointer;
+      overflow: hidden;
+
+      .circle {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: white;
+        transition: all;
+        transition-duration: 2s;
+        animation: scale 0.5s ease-out;
+      }
+    }
+
+    @keyframes scale {
+      to {
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0;
+      }
     }
   }
 }
